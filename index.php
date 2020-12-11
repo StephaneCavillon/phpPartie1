@@ -84,7 +84,8 @@ echo $boolean;
 Donner une valeur à cette variable et l'afficher. </p>
 
 <?php
-$int1 = 0;
+$int1 = (int) null;
+var_dump($int1);
 echo $int1;
 echo '<br>';
 $int1 = 42;
